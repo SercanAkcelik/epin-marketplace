@@ -1,0 +1,76 @@
+# EPIN Marketplace - Showcase Repository
+# Bu repository yalnızca proje tanıtımı içindir.
+# Kaynak kod özeldir ve paylaşılmamaktadır.
+
+# ========================================
+# TÜM KAYNAK KODLARI HARİÇ TUT
+# ========================================
+
+# Gerçek kaynak dosyalar
+*.cs
+!*.example.cs
+*.csproj
+*.sln
+*.cshtml
+*.css
+*.js
+appsettings*.json
+
+# Build outputs
+bin/
+obj/
+out/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+migration_*.sql
+migration_*.txt
+
+# Database
+*.mdf
+*.ldf
+
+# Uploads
+wwwroot/
+
+# Migrations
+Migrations/
+
+# Windows/macOS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ========================================
+# BU DOSYALARI DAHİL ET
+# ========================================
+!README.md
+!DOCUMENTATION.md
+!LINKEDIN_POST.md
+!STRUCTURE.md
+!Assets/
+!Assets/screenshots/
+!Epin/
+!Epin/Controllers/
+!Epin/Controllers/README.md
+!Epin/Controllers/*.example.cs
+!Epin/Models/
+!Epin/Models/README.md
+!Epin/Models/*.example.cs
+!Epin/Services/
+!Epin/Services/README.md
+!Epin/Services/*.example.cs
+!Epin/Views/
+!Epin/Views/README.md
+!Epin/Data/
+!Epin/Data/README.md
